@@ -13,7 +13,7 @@ router.post('/employees',add_employees);
 router.get('/employees/:id',get_employees);
 router.post('/attendance/mark',mark_Attendance);
 router.post('/salary/calculate',calculate_Salary);
-router.get('/salary/:employeeId',get_salary);
+router.get('/salary/:id',get_salary);
 router.post('/payroll/distribute',distribute_Payroll);
 router.get('/payroll/history',get_payroll_history);
 
