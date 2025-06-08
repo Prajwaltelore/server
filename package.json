@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "author": "pT",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mysql": "^2.15.27",
+    "nodemon": "^3.1.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.30",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^1.20.2",
+    "class-validator": "^0.14.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.24"
+  }
+}
